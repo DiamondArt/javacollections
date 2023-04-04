@@ -1,9 +1,15 @@
 package javaArraylist.test;
-import javaArraylist.ArrayIsEmpty;
-import org.junit.Assert;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+
+/*********************************************************************************
+ *
+ * @Author: Melissa Kouadio
+ * @Link: <https://github.com/DiamondArt
+ * @Description: Write a Java program to test an array list is empty or not
+ *
+ * ******************************************************************************/
 
 public class ArrayIsEmptyTest {
     @org.junit.Test

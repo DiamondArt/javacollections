@@ -8,6 +8,5 @@ public class BinarySearch {
         Integer numbers[] = new Integer[12];
         numbers[0] = 1;
 
-
     }
 }

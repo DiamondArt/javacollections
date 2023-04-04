@@ -2,7 +2,6 @@ package javaArraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * Write a Java program to trim the capacity of an array list the current list size
@@ -10,7 +9,7 @@ import java.util.Collections;
 public class ArraySize {
     public static void main(String[] args) {
 
-        ArrayList<String> stringArray = new ArrayList<>(Arrays.asList("Hello"," ","Hi","Blabla","Love","Nice"));
+        ArrayList<String> stringArray = new ArrayList<>(Arrays.asList("Hello"," Hello ","Hi","Blabla","Love","Nice"));
 
         System.out.println("Original array list");
         System.out.println(stringArray);
@@ -18,8 +17,9 @@ public class ArraySize {
         arraySize(stringArray);
     }
 
-    public static void arraySize(ArrayList arr) {
+    public static Object arraySize(ArrayList arr) {
         arr.trimToSize();
         System.out.println(arr);
+        return null;
     }
 }
